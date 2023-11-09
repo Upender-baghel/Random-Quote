@@ -1,0 +1,40 @@
+
+
+button{
+    /* border-radius: 30px; */
+    border-start-start-radius:  400px;
+    border-end-end-radius:  400px;
+
+  }
+button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 24px purple;
+    width: 150px;
+    border-color: peru 340px;
+    text-shadow: 1px 1px  black;
+    transition-duration: 600ms;
+    translate: 0px 5px;
+    border-style: inset;
+
+}
+.container{
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 20px rgb(0, 0, 0,0.1);
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 50%;
+}
+body{
+    background: #2980b9;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+
